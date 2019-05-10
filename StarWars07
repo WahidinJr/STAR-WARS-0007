@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class StarWars07 {
+
+    public static void main(String[] args) {
+
+        //Wahidin (D0217516) Informatika C 17
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        for (int i = 0; i <= a; i++) {
+            for (int k = 0; k <= i; k++) {
+                //kebalikannya: for (int k = 0; k < (a-i) ; k++) {
+                System.out.print("X ");
+            }
+            System.out.println();
+        }
+    }
+}
